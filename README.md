@@ -1,5 +1,4 @@
 # Form Builder
-React application to display Movies and TvSHows using The Movie Db API
 
 To run the project you need:
 
