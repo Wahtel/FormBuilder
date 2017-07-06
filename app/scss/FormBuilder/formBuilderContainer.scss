@@ -1,0 +1,35 @@
+$grey: #e7e7e7;
+$black: #000000;
+
+.formBuilderContainer {
+  text-align: center;
+  margin-top: 20px;
+
+  .formBuilderButtons {
+    text-align: center;
+    //width: 310px;
+    margin: 40px auto;
+    height: 50px;
+
+    a {
+      width: 150px;
+      cursor: pointer;
+      outline: none;
+      line-height: 50px;
+      text-decoration: none;
+      color: $black;
+      display: inline-block;
+      height: 50px;
+      border: none;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      background-color: $grey;
+      transition: 0.5s;
+    }
+
+    a:hover {
+      background: darken($grey, 10%);
+    }
+  }
+}

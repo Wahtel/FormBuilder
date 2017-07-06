@@ -1,0 +1,20 @@
+.builderFieldContainer {
+  height: 25px;
+  margin: 20px;
+
+  .text {
+    float: left;
+  }
+
+  .field {
+    float: right;
+  }
+
+  .typeSelector {
+    width: 180px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 3px;
+    border-color: lightgray;
+  }
+}

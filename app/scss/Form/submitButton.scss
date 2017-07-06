@@ -1,0 +1,23 @@
+$grey: #e7e7e7;
+$black: #000000;
+$blue: #286090;
+
+.submitButton {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: $blue;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.submitButton:hover {
+  background: darken($blue, 5%);
+}

@@ -1,0 +1,23 @@
+$grey: #e9eced;
+
+.formBuilder {
+  background: $grey;
+  overflow: hidden;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 4px;
+  border: 1px solid black;
+
+  input {
+    padding-left: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+}
+
+.noHeight {
+  height: 0;
+}
